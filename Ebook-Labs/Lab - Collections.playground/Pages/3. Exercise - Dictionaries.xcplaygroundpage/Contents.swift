@@ -3,8 +3,8 @@
 
  Create a variable `[String: Int]` dictionary that can be used to look up the number of days in a particular month. Use a dictionary literal to initialize it with January, February, and March. January contains 31 days, February has 28, and March has 31. Print the dictionary.
  */
-
-
+var MonthDaysNumber:[String: Int] = ["January": 31, "February": 28, "March":31]
+print(MonthDaysNumber)
 /*:
  Using subscripting syntax to add April to the collection with a value of 30. Print the dictionary.
  */
